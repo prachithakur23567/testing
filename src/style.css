@@ -1,0 +1,135 @@
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* text-align: center; */
+
+}
+/* body{
+    justify-content: center;
+    align-items: center;
+} */
+.App{
+    height: 92vh;
+    width: 90vw;
+    border: 2px solid grey;
+    justify-content: center;
+    align-items: center;
+    /* place-items: center; */
+    margin: 1rem 3.5rem ;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.part-1{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+} 
+.right button{
+    border: none;
+    background-color: rgb(240, 242, 244);
+}
+.part-2{
+    display: flex;
+    border:3px solid rgb(142, 140, 140) ;
+    border-left: none;
+    border-right: none;
+    margin: 0px 15px;
+    background-color: rgb(157, 157, 162);
+
+}
+
+.fonts{
+    display: flex;
+    margin-left: 10px;
+
+    height: 2rem;
+    align-items: center;
+
+   
+
+    
+
+    
+}
+.first{
+    display: flex;
+    margin-left: 20px;
+   
+    font-size: 16px;
+    font-weight: 500;
+    width: 13rem;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.first :hover{
+    border: 1px solid rgb(153, 198, 228);
+    border-radius: 15px 15px 15px 15px ;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(153, 198, 228);
+    color: rgb(15, 1, 1);
+    font-weight: 600;
+
+}
+.first li{
+    margin-left:2px ;
+}
+.form{
+    border: 2px solid rgb(142, 140, 140);
+    background-color: rgb(232, 223, 223);
+    margin: 5px 15px;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+}
+.formin{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 35px;
+    justify-content: space-between;
+    height: 12rem;
+
+
+}
+.formleft{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 15px;
+    margin-top: 4px; 
+   
+}
+.formleft input{
+    width: 20rem;
+    align-items: center;
+    margin: 7px;
+    border-radius: 3px 3px 3px 3px;
+    border: 2px solid rgb(142, 140, 140) ;
+    height: 2rem;
+
+}
+.formleft button{
+    width: 6rem;
+    margin: 7px;
+    height: 2.1rem;
+    align-items: center;
+    color: rgb(16, 14, 14);
+    border-radius: 3px 3px 3px 3px;
+    border: 2px solid rgb(142, 140, 140) ;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* .formright p{
+    margin-right: 2rem;
+} */
